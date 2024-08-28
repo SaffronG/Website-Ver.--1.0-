@@ -1,0 +1,73 @@
+div.center-column {
+    background-image: url('Fractal.jpg');
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+div.nav-bar {
+    display: flex;
+    width: 100%;
+    background-color: #171451;
+}
+li.nav-item {
+    display: flexbox;
+    background-color: blue;
+}
+
+a.nav-item {
+    padding-left: 5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.nav-list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+h1,h2 {
+    background-color: white;
+    height: 40px;
+    border-radius: 25px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: dashed;
+    border-color: #171451;
+    align-self: center;
+}
+a.nav-item:hover {
+    transition: .5s;
+    color: green;
+    cursor: default;
+}
+p {
+    background-color: white;
+    height: 40px;
+    border-radius: 25px;
+    width: auto;
+    padding-left: 10%;
+    border-style: dashed;
+    border-color: #171451;
+    align-self: box;
+    padding-top: 2px;
+}
+
+img.project-img {
+    width: 75%;
+    margin-left: 12%;
+    border-style: dashed;
+    border-color: #171451;
+    border-radius: 25px;
+}
