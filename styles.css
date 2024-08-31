@@ -48,6 +48,18 @@ body {
     margin: 0;
 }
 
+.block-content-bg {
+    background-color: #eef0dc;
+    border-radius: 5px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: dashed;
+    border-color: #171451;
+    align-self: center;    
+    height: auto;
+}
+
 h1,h2 {
     background-color: #eef0dc;
     height: 40px;
@@ -59,10 +71,9 @@ h1,h2 {
     border-color: #171451;
     align-self: center;
 }
-a.nav-item:hover {
+a:hover {
     transition: .5s;
     color: rgb(253, 70, 25);
-    cursor: default;
 }
 p {
     background-color: #eef0dc;
@@ -74,6 +85,19 @@ p {
     border-color: #171451;
     align-self: box;
     padding-top: 2px;
+    align-content: center;
+}
+
+.project-plan {
+    background-color: #eef0dc;
+    height: 40px;
+    border-radius: 25px;
+    width: auto;
+    padding-left: 10%;
+    border-style: dashed;
+    border-color: #171451;
+    align-self: box;
+    align-content: center;
 }
 
 img.project-img {
