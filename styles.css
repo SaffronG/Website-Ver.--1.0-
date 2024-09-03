@@ -86,6 +86,7 @@ h1,h2,h3 {
     justify-content: center;
     align-content: center;
 }
+
 a:hover {
     transition: .5s;
     color: rgb(253, 70, 25);
@@ -121,4 +122,16 @@ img.project-img {
     border-style: dashed;
     border-color: #171451;
     border-radius: 25px;
+}
+
+#Projects {
+    color: brown;
+}
+
+a#Vault:hover {
+    color: yellow;
+}
+
+a#College:hover {
+    color:orange;
 }
